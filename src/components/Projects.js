@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-//import projImg1 from "../assets/img/project-img1.png";
+import businessmodel from "../assets/img/Icons_New/businessmodel.svg";
 //import projImg2 from "../assets/img/project-img2.png";
 //import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -11,29 +11,18 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Business Model",
+      description: "Our business model is based on providing a range of different biosensor products to businesses and consumers.",
+      imgUrl: businessmodel
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Technical Expertise",
+      description: "Our team has a wide range of technical expertise in the fields of biosensors, machine learning, and data science.",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-    },
+      title: "Innovative Technology",
+      description: "Our R&D is based and supported by RWTH Aachen University, one of the leading technical universities in Europe.",
+    }
   ];
 
   return (
@@ -44,7 +33,7 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
+                <h2>About Us</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
