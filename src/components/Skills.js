@@ -1,6 +1,8 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import feature1 from "../assets/img/features/affordable.svg";
+import feature2 from "../assets/img/features/continuous.svg";
+import feature3 from "../assets/img/features/prediction.svg";
+import feature4 from "../assets/img/features/realtime.svg";
+import feature5 from "../assets/img/features/10days.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -35,23 +37,27 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Features</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p style={{ fontSize: "28px" }}>Our innovative biosensors offers wide range of unique features including:</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={feature1} alt="Image" />
+                                <h5>Affordable</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <img src={feature2} alt="Image" />
+                                <h5>Continuous Monitoring</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <img src={feature3} alt="Image" />
+                                <h5>Early Prediction</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={feature4} alt="Image" />
+                                <h5>Real-time Sensing</h5>
+                            </div>
+                            <div className="item">
+                                <img src={feature5} alt="Image" />
+                                <h5>Can wear up to 10 days</h5>
                             </div>
                         </Carousel>
                     </div>
