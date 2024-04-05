@@ -6,6 +6,7 @@ import businessmodel from '../assets/img/Icons_New/businessmodel.svg';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import Juliette from '../assets/img/Members/Juliette.png';
 
 export const Projects = () => {
   const projects = [
@@ -27,7 +28,7 @@ export const Projects = () => {
   const teamMembers = [
     {
       name: 'Juliette TKint',
-      profilePic: '../assets/img/Members/Juliette.png',
+      profilePic: Juliette,
     },
     {
       name: 'Stefan Kreher',
@@ -39,6 +40,10 @@ export const Projects = () => {
     },
     {
       name: 'Yusuke Tsutsumi',
+      profilePic: '../assets/img/Members/Juliette.png',
+    },
+    {
+      name: 'Yumie Nishiyama',
       profilePic: '../assets/img/Members/Juliette.png',
     },
   ];
