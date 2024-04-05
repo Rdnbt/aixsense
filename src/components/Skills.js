@@ -5,8 +5,6 @@ import feature4 from "../assets/img/features/realtime.svg";
 import feature5 from "../assets/img/features/10days.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
