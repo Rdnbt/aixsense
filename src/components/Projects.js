@@ -46,6 +46,38 @@ export const Projects = () => {
       name: 'Yumie Nishiyama',
       profilePic: '../assets/img/Members/Juliette.png',
     },
+    {
+      name: 'Chenyan Feng',
+      profilePic: '../assets/img/Members/Juliette.png',
+    },
+    {
+      name: 'Yiyu Lin',
+      profilePic: '../assets/img/Members/Juliette.png',
+    },
+    {
+      name: 'Lucy',
+      profilePic: '../assets/img/Members/Juliette.png',
+    },
+    {
+      name: 'Yijun',
+      profilePic: '../assets/img/Members/Juliette.png',
+    },
+    {
+      name: 'Koki',
+      profilePic: '../assets/img/Members/Juliette.png',
+    },
+    {
+      name: 'Reyyan Tagman',
+      profilePic: '../assets/img/Members/Juliette.png',
+    },
+    {
+      name: 'Amine',
+      profilePic: '../assets/img/Members/Juliette.png',
+    }, 
+    {
+      name: 'Seungyeon',
+      profilePic: '../assets/img/Members/Juliette.png',
+    },
   ];
 
   return (
