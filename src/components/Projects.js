@@ -11,6 +11,7 @@ import TrackVisibility from 'react-on-screen';
 import Juliette from '../assets/img/Members/Juliette.png';
 import Stefan from '../assets/img/Members/Stefan.png';
 import Yusuke from '../assets/img/Members/Yusuke.png';
+import Erdenebat from '../assets/img/Members/Erdenebat.png';
 /* import Muxi from '../assets/img/Members/Muxi.png';
 import Seungyeon from '../assets/img/Members/Seungyeon.png';
 import Sven from '../assets/img/Members/Sven.png';
@@ -20,7 +21,6 @@ import Erkai from '../assets/img/Members/Erkai.png';
 import Chenyan from '../assets/img/Members/Chenyan.png';
 import Yumie from '../assets/img/Members/Yumie.png';
 import Kostadin from '../assets/img/Members/Kostadin.png';
-import Erdenebat from '../assets/img/Members/Erdenebat.png';
 */
 
 
