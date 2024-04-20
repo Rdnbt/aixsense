@@ -118,7 +118,7 @@ export const Projects = () => {
     },
     {
       name: 'Erdenebat Battseren',
-      profilePic: '../assets/img/Members/Erdenebat.png',
+      profilePic: Erdenebat,
       team: 'Business',
     },
   ];
