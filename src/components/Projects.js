@@ -6,7 +6,23 @@ import businessmodel from '../assets/img/Icons_New/businessmodel.svg';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+
+// ----------------------------------------------------------------
 import Juliette from '../assets/img/Members/Juliette.png';
+import Stefan from '../assets/img/Members/Stefan.png';
+import Yusuke from '../assets/img/Members/Yusuke.png';
+/* import Muxi from '../assets/img/Members/Muxi.png';
+import Seungyeon from '../assets/img/Members/Seungyeon.png';
+import Sven from '../assets/img/Members/Sven.png';
+import Yijun from '../assets/img/Members/Yijun.png';
+import Lin from '../assets/img/Members/Lin.png';
+import Erkai from '../assets/img/Members/Erkai.png';
+import Chenyan from '../assets/img/Members/Chenyan.png';
+import Yumie from '../assets/img/Members/Yumie.png';
+import Kostadin from '../assets/img/Members/Kostadin.png';
+import Erdenebat from '../assets/img/Members/Erdenebat.png';
+*/
+
 
 export const Projects = () => {
   const projects = [
@@ -26,57 +42,84 @@ export const Projects = () => {
   ];
 
   const teamMembers = [
+    // Subteam: Microfluidics
     {
-      name: 'Juliette TKint',
-      profilePic: Juliette,
+      name: 'Amine Baadaka',
+      profilePic: '../assets/img/Members/Amine.png',
+      team: 'Microfluidics',
     },
     {
-      name: 'Stefan Kreher',
-      profilePic: '../assets/img/Members/Juliette.png',
+      name: 'Muxi Zhang',
+      profilePic: '../assets/img/Members/Muxi.png',
+      team: 'Microfluidics',
     },
     {
-      name: 'Erdenebat Battseren',
-      profilePic: '../assets/img/Members/Juliette.png',
+      name: 'Seungyeon Kim',
+      profilePic: '../assets/img/Members/Seungyeon.png',
+      team: 'Microfluidics',
     },
     {
-      name: 'Yusuke Tsutsumi',
-      profilePic: '../assets/img/Members/Juliette.png',
+      name: 'Sven Gedamke',
+      profilePic: '../assets/img/Members/Sven.png',
+      team: 'Microfluidics',
     },
     {
-      name: 'Yumie Nishiyama',
-      profilePic: '../assets/img/Members/Juliette.png',
+      name: 'Yijun Yan',
+      profilePic: '../assets/img/Members/Yijun.png',
+      team: 'Microfluidics',
+    },
+    // Subteam: Sensor
+    {
+      name: 'Lin Yiyu',
+      profilePic: '../assets/img/Members/Lin.png',
+      team: 'Sensor',
+    },
+    {
+      name: 'Erkai Wang',
+      profilePic: '../assets/img/Members/Erkai.png',
+      team: 'Sensor',
     },
     {
       name: 'Chenyan Feng',
-      profilePic: '../assets/img/Members/Juliette.png',
+      profilePic: '../assets/img/Members/Chenyan.png',
+      team: 'Sensor',
     },
     {
-      name: 'Yiyu Lin',
-      profilePic: '../assets/img/Members/Juliette.png',
+      name: 'Yumie Nishiyama',
+      profilePic: '../assets/img/Members/Yumie.png',
+      team: 'Sensor',
     },
     {
-      name: 'Lucy',
-      profilePic: '../assets/img/Members/Juliette.png',
+      name: 'Reyyan Güzide Tagman',
+      profilePic: '../assets/img/Members/Reyyan.png',
+      team: 'Sensor',
+    },
+    // Sub-team: Data Analysis
+    {
+      name: 'Stefan Kreher',
+      profilePic: Stefan,
+      team: 'Data Analysis',
     },
     {
-      name: 'Yijun',
-      profilePic: '../assets/img/Members/Juliette.png',
+      name: 'Kostadin Eftimov',
+      profilePic: '../assets/img/Members/Kostadin.png',
+      team: 'Data Analysis',
+    },
+    // Sub-team: Business
+    {
+      name: 'Juliette T\'Kint',
+      profilePic: Juliette,
+      team: 'Business',
     },
     {
-      name: 'Koki',
-      profilePic: '../assets/img/Members/Juliette.png',
+      name: 'Yusuke Tsumtsumi',
+      profilePic: Yusuke,
+      team: 'Business',
     },
     {
-      name: 'Reyyan Tagman',
-      profilePic: '../assets/img/Members/Juliette.png',
-    },
-    {
-      name: 'Amine',
-      profilePic: '../assets/img/Members/Juliette.png',
-    }, 
-    {
-      name: 'Seungyeon',
-      profilePic: '../assets/img/Members/Juliette.png',
+      name: 'Erdenebat Battseren',
+      profilePic: '../assets/img/Members/Erdenebat.png',
+      team: 'Business',
     },
   ];
 

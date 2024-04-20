@@ -1,14 +1,16 @@
 import React from 'react';
 
-const TeamMember = ({ name, profilePic }) => {
+const TeamMember = ({ name, team, profilePic }) => {
   const profilePictureStyle = {
     width: '120px', // Adjust the width to your preference
     height: '120px', // Adjust the height to your preference
     borderRadius: '50%', // Creates a circular frame
     overflow: 'hidden', // Ensures the image stays within the circular frame
     margin: '0 auto', // Centers the circular frame horizontally
-    justifyContent: 'center', // Centers content horizontally
-    alignItems: 'center', // Centers content vertically
+    display: 'flex', // Enables flexbox layout
+    flexDirection: 'column', // Stacks items vertically
+    alignItems: 'center', // Centers items horizontally
+    justifyContent: 'center', // Centers items vertically
   };
 
   const pictureStyle = {
@@ -22,7 +24,8 @@ const TeamMember = ({ name, profilePic }) => {
       <div style={profilePictureStyle}>
         <img src={profilePic} alt={name} style={pictureStyle} />
       </div>
-      <h3>{name}</h3>
+      <h4 style={{ textAlign: 'center' }}>{name}</h4>
+      <h6 style={{ textAlign: 'center' }}>{team}</h6>
     </div>
   );
 };
