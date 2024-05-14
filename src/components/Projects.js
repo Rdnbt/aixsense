@@ -12,15 +12,15 @@ import Juliette from '../assets/img/Members/Juliette.png';
 import Stefan from '../assets/img/Members/Stefan.png';
 import Yusuke from '../assets/img/Members/Yusuke.png';
 import Erdenebat from '../assets/img/Members/Erdenebat.png';
+import Kostadin from '../assets/img/Members/kostadin.png';
+import Lin from '../assets/img/Members/Lin.png';
 /* import Muxi from '../assets/img/Members/Muxi.png';
 import Seungyeon from '../assets/img/Members/Seungyeon.png';
 import Sven from '../assets/img/Members/Sven.png';
 import Yijun from '../assets/img/Members/Yijun.png';
-import Lin from '../assets/img/Members/Lin.png';
 import Erkai from '../assets/img/Members/Erkai.png';
 import Chenyan from '../assets/img/Members/Chenyan.png';
 import Yumie from '../assets/img/Members/Yumie.png';
-import Kostadin from '../assets/img/Members/Kostadin.png';
 */
 
 
@@ -71,7 +71,7 @@ export const Projects = () => {
     // Subteam: Sensor
     {
       name: 'Lin Yiyu',
-      profilePic: '../assets/img/Members/Lin.png',
+      profilePic: Lin,
       team: 'Sensor',
     },
     {
@@ -102,7 +102,7 @@ export const Projects = () => {
     },
     {
       name: 'Kostadin Eftimov',
-      profilePic: '../assets/img/Members/Kostadin.png',
+      profilePic: Kostadin,
       team: 'Data Analysis',
     },
     // Sub-team: Business
