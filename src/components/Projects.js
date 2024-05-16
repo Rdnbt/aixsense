@@ -14,11 +14,11 @@ import Yusuke from '../assets/img/Members/Yusuke.png';
 import Erdenebat from '../assets/img/Members/Erdenebat.png';
 import Kostadin from '../assets/img/Members/kostadin.png';
 import Lin from '../assets/img/Members/Lin.png';
+import Erkai from '../assets/img/Members/Erkai.jpeg';
 /* import Muxi from '../assets/img/Members/Muxi.png';
 import Seungyeon from '../assets/img/Members/Seungyeon.png';
 import Sven from '../assets/img/Members/Sven.png';
 import Yijun from '../assets/img/Members/Yijun.png';
-import Erkai from '../assets/img/Members/Erkai.png';
 import Chenyan from '../assets/img/Members/Chenyan.png';
 import Yumie from '../assets/img/Members/Yumie.png';
 */
@@ -76,7 +76,7 @@ export const Projects = () => {
     },
     {
       name: 'Erkai Wang',
-      profilePic: '../assets/img/Members/Erkai.png',
+      profilePic: Erkai,
       team: 'Sensor',
     },
     {
