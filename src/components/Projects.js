@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
 import { ProjectCard } from './ProjectCard';
 import TeamMember from './Teammember'; // Import the TeamMember component
@@ -22,7 +22,6 @@ import Yijun from '../assets/img/Members/Yijun.png';
 import Chenyan from '../assets/img/Members/Chenyan.png';
 import Yumie from '../assets/img/Members/Yumie.png';
 */
-
 
 export const Projects = () => {
   const projects = [
@@ -164,6 +163,99 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>Weekly/Monthly blogs will be posted here</p>
+                        <Row>
+                          <Col md={4}>
+                            <div>
+                              <iframe
+                                src="https://www.instagram.com/p/C5YKFKohqQ0/embed"
+                                width="320"
+                                height="440"
+                                frameBorder="0"
+                                scrolling="no"
+                                allowTransparency="true"
+                                allow="encrypted-media"
+                              ></iframe>
+                            </div>
+                          </Col>
+                          <Col md={4}>
+                            <div>
+                              <iframe
+                                src="https://www.instagram.com/p/C5seHDahwJN/embed"
+                                width="320"
+                                height="440"
+                                frameBorder="0"
+                                scrolling="no"
+                                allowTransparency="true"
+                                allow="encrypted-media"
+                              ></iframe>
+                            </div>
+                          </Col>
+                          <Col md={4}>
+                            <div>
+                              <iframe
+                                src="https://www.instagram.com/p/C6Qa8w-B4sE/embed"
+                                width="320"
+                                height="440"
+                                frameBorder="0"
+                                scrolling="no"
+                                allowTransparency="true"
+                                allow="encrypted-media"
+                              ></iframe>
+                            </div>
+                          </Col>
+                          <Col md={4}>
+                            <div>
+                              <iframe
+                                src="https://www.instagram.com/p/C5-YcJ0B_ea/embed"
+                                width="320"
+                                height="440"
+                                frameBorder="0"
+                                scrolling="no"
+                                allowTransparency="true"
+                                allow="encrypted-media"
+                              ></iframe>
+                            </div>
+                          </Col>
+                          <Col md={4}>
+                            <div>
+                              <iframe
+                                src="https://www.instagram.com/p/C6lAdHmhKzP/embed"
+                                width="320"
+                                height="440"
+                                frameBorder="0"
+                                scrolling="no"
+                                allowTransparency="true"
+                                allow="encrypted-media"
+                              ></iframe>
+                            </div>
+                          </Col>
+                          <Col md={4}>
+                            <div>
+                              <iframe
+                                src="https://www.instagram.com/p/C68ENyFBoKy/embed"
+                                width="320"
+                                height="440"
+                                frameBorder="0"
+                                scrolling="no"
+                                allowTransparency="true"
+                                allow="encrypted-media"
+                              ></iframe>
+                            </div>
+                          </Col>
+                          <Col md={4}>
+                            <div>
+                              <iframe
+                                src="https://www.instagram.com/p/C7Oihvqh3AZ/embed"
+                                width="320"
+                                height="440"
+                                frameBorder="0"
+                                scrolling="no"
+                                allowTransparency="true"
+                                allow="encrypted-media"
+                              ></iframe>
+                            </div>
+                          </Col>
+                        </Row>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
@@ -179,4 +271,3 @@ export const Projects = () => {
 };
 
 export default Projects;
-
