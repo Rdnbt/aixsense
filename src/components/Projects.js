@@ -14,7 +14,7 @@ import Yusuke from '../assets/img/Members/Yusuke.png';
 import Erdenebat from '../assets/img/Members/Erdenebat.png';
 import Kostadin from '../assets/img/Members/kostadin.png';
 import Lin from '../assets/img/Members/Lin.png';
-import Erkai from '../assets/img/Members/Erkai.jpeg';
+import Erkai from '../assets/img/Members/Erkai.jpg';
 /* import Muxi from '../assets/img/Members/Muxi.png';
 import Seungyeon from '../assets/img/Members/Seungyeon.png';
 import Sven from '../assets/img/Members/Sven.png';

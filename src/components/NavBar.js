@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/Logo_Text.svg';
+import oldlogo from '../assets/img/aixsense_logo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -32,12 +33,27 @@ export const NavBar = () => {
     setActiveLink(value);
   }
 
+  const navbarBrandStyles = {
+    display: 'flex',
+    alignItems: 'center'
+  };
+
+  const logoStyles = {
+    height: '80px',
+    marginRight: '20px' // Adjust as needed for spacing between logos
+  };
+
+  const oldLogoStyles = {
+    height: '50px' // Ensure both logos are the same height
+  };
+
   return (
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+          <Navbar.Brand href="/" style={navbarBrandStyles}>
+            <img src={logo} alt="Logo" style={logoStyles} />
+            <img src={oldlogo} alt="Old Logo" style={oldLogoStyles} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
