@@ -2,7 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
 import { ProjectCard } from './ProjectCard';
 import TeamMember from './Teammember'; // Import the TeamMember component
-import businessmodel from '../assets/img/Icons_New/businessmodel.svg';
+import business from '../assets/img/Icons_New/business.svg';
+import patients from '../assets/img/Icons_New/patients.svg';
+import sensor from '../assets/img/Icons_New/first.svg';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -27,17 +29,19 @@ import Reyyan from '../assets/img/Members/reyyan.png';
 export const Projects = () => {
   const projects = [
     {
-      title: 'Business Model',
-      description: 'Our business model is based on providing a range of different biosensor products to businesses and consumers.',
-      imgUrl: businessmodel,
+      title: 'AixCrea Biosensor',
+      description: 'We are aiming to develop our biosensor wearable into your body similar to glucose biosensor.',
+      imgUrl: sensor,
     },
     {
-      title: 'Technical Expertise',
-      description: 'Our team has a wide range of technical expertise in the fields of biosensors, machine learning, and data science.',
+      title: 'Designed for',
+      description: 'AixCrea is specifically designed for patients with chronic kidney disease (CKD) and Kidney Transplant patients. It can be also applicable to AKI patients and patients who are nephrotoxic drug medication.',
+      imgUrl: patients
     },
     {
-      title: 'Innovative Technology',
-      description: 'Our R&D is based and supported by RWTH Aachen University, one of the leading technical universities in Europe.',
+      title: 'Price',
+      description: 'Compared to other point-of-care devices, AixCrea is more affordable and accessible to patients.',
+      imgUrl: business
     },
   ];
 
