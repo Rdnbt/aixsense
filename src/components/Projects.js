@@ -15,13 +15,14 @@ import Erdenebat from '../assets/img/Members/Erdenebat.png';
 import Kostadin from '../assets/img/Members/kostadin.png';
 import Lin from '../assets/img/Members/Lin.png';
 import Erkai from '../assets/img/Members/Erkai.jpg';
-/* import Muxi from '../assets/img/Members/Muxi.png';
-import Seungyeon from '../assets/img/Members/Seungyeon.png';
-import Sven from '../assets/img/Members/Sven.png';
-import Yijun from '../assets/img/Members/Yijun.png';
-import Chenyan from '../assets/img/Members/Chenyan.png';
-import Yumie from '../assets/img/Members/Yumie.png';
-*/
+import Muxi from '../assets/img/Members/muxi.png';
+import Seungyeon from '../assets/img/Members/seonyoung.png';
+import Sven from '../assets/img/Members/sven.png';
+import Yijun from '../assets/img/Members/yijun.png';
+import Chenyan from '../assets/img/Members/chenyan.png';
+import Yumie from '../assets/img/Members/yumie.png';
+import Amine from '../assets/img/Members/amine.png'
+import Reyyan from '../assets/img/Members/reyyan.png';
 
 export const Projects = () => {
   const projects = [
@@ -44,27 +45,27 @@ export const Projects = () => {
     // Subteam: Microfluidics
     {
       name: 'Amine Baadaka',
-      profilePic: '../assets/img/Members/Amine.png',
+      profilePic: Amine,
       team: 'Microfluidics',
     },
     {
       name: 'Muxi Zhang',
-      profilePic: '../assets/img/Members/Muxi.png',
+      profilePic: Muxi,
       team: 'Microfluidics',
     },
     {
       name: 'Seungyeon Kim',
-      profilePic: '../assets/img/Members/Seungyeon.png',
+      profilePic: Seungyeon,
       team: 'Microfluidics',
     },
     {
       name: 'Sven Gedamke',
-      profilePic: '../assets/img/Members/Sven.png',
+      profilePic: Sven,
       team: 'Microfluidics',
     },
     {
       name: 'Yijun Yan',
-      profilePic: '../assets/img/Members/Yijun.png',
+      profilePic: Yijun,
       team: 'Microfluidics',
     },
     // Subteam: Sensor
@@ -80,17 +81,17 @@ export const Projects = () => {
     },
     {
       name: 'Chenyan Feng',
-      profilePic: '../assets/img/Members/Chenyan.png',
+      profilePic: Chenyan,
       team: 'Sensor',
     },
     {
       name: 'Yumie Nishiyama',
-      profilePic: '../assets/img/Members/Yumie.png',
+      profilePic: Yumie,
       team: 'Sensor',
     },
     {
       name: 'Reyyan Güzide Tagman',
-      profilePic: '../assets/img/Members/Reyyan.png',
+      profilePic: Reyyan,
       team: 'Sensor',
     },
     // Sub-team: Data Analysis
@@ -131,7 +132,7 @@ export const Projects = () => {
               {({ isVisible }) => (
                 <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>
                   <h2>About Us</h2>
-                  <p style={{ fontSize: '25px' }}>Our mission: developing a real-time, reliable, and continuous biosensor for monitoring Acute Kidney Injury (AKI) using creatinine. ‍ 🔬 </p>
+                  <p style={{ fontSize: '25px' }}>To improve kidney health management through innovative, continuous monitoring solutions that provide real-time data and actionable insights for patients and healthcare providers. ‍ 🔬 </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
