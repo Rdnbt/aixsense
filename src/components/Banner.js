@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h1>{`AixSense`} <span className="txt-rotate" dataPeriod="500" data-rotate='[ "Continuous Monitoring", "Creatinine sensing", "CKD"]'><span className="wrap">{text}</span></span></h1>
-                  <p>AixSense is a team working on continuous monitoring biosensor with a motivation to build a startup</p>
+                  <p>AixSense is a student team working on a continuous monitoring biosensor supported by IWE1 Institute from RWTH Aachen University. We are participating in SensUs 2024, an international student biosensor development competition.</p>
                   <button onClick={() => console.log('connect')}>Find out more<ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
